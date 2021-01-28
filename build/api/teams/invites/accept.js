@@ -43,7 +43,7 @@ var fetcher_1 = __importDefault(require("../../../fetch/fetcher"));
 var acceptTeamInvitation = function (data) { return __awaiter(void 0, void 0, void 0, function () {
     return __generator(this, function (_a) {
         switch (_a.label) {
-            case 0: return [4, fetcher_1.default("/team/invitations/accept", {
+            case 0: return [4, fetcher_1.default("/teams/invitations/accept", {
                     method: "POST",
                     body: JSON.stringify(data),
                 })];

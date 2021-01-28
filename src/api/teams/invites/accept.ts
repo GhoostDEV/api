@@ -13,7 +13,7 @@ type ResponseType = {
 };
 
 const acceptTeamInvitation = async (data: AcceptTeamInvitationRequiredParemeters): Promise<ResponseType> => {
-    return await fetcher("/team/invitations/accept", {
+    return await fetcher("/teams/invitations/accept", {
         method: "POST",
         body: JSON.stringify(data),
     });
