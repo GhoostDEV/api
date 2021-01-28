@@ -40,7 +40,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var fetcher_1 = __importDefault(require("../../fetch/fetcher"));
-var getNews = function () { return __awaiter(void 0, void 0, void 0, function () {
+var getGames = function () { return __awaiter(void 0, void 0, void 0, function () {
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0: return [4, fetcher_1.default("/games/get")];
@@ -48,5 +48,5 @@ var getNews = function () { return __awaiter(void 0, void 0, void 0, function ()
         }
     });
 }); };
-exports.default = getNews;
+exports.default = getGames;
 //# sourceMappingURL=get.js.map
