@@ -1,5 +1,5 @@
-import { MembershipType } from "../create";
 import fetcher from "../../../fetch/fetcher";
+import { MembershipType } from "../memberships";
 
 export type AcceptTeamInvitationRequiredParemeters = {
     teamId: string;

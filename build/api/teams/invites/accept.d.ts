@@ -1,4 +1,4 @@
-import { MembershipType } from "../create";
+import { MembershipType } from "../memberships";
 export declare type AcceptTeamInvitationRequiredParemeters = {
     teamId: string;
 };

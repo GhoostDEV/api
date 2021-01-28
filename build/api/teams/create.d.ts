@@ -1,15 +1,7 @@
-import { Image, Team, TeamMembership, User } from "@prisma/client";
+import { MembershipType } from "./memberships";
 export declare type CreateTeamRequiredParameters = {
     id: string;
     name: string;
-};
-export declare type MembershipType = TeamMembership & {
-    team: Team & {
-        members: (TeamMembership & {
-            user: User;
-        })[];
-        icon: Image;
-    };
 };
 declare type ResponseType = {
     message: string;

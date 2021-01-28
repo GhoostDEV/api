@@ -1,18 +1,9 @@
 import post from "../../fetch/post";
-import { Image, Team, TeamMembership, User } from "@prisma/client";
+import { MembershipType } from "./memberships";
 
 export type CreateTeamRequiredParameters = {
     id: string;
     name: string;
-};
-
-export type MembershipType = TeamMembership & {
-    team: Team & {
-        members: (TeamMembership & {
-            user: User;
-        })[];
-        icon: Image;
-    };
 };
 
 type ResponseType = {
