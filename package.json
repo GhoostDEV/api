@@ -1,11 +1,12 @@
 {
   "name": "ghoost-api",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ts-index-generator && tsc"
+    "build": "ts-index-generator && tsc",
+    "postinstall": "prisma generate"
   },
   "files": [
     "build/**/*.js",
