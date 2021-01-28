@@ -9,8 +9,8 @@ type ResponseType = {
     };
 };
 
-const getNews = async(): Promise<ResponseType> => {
+const getGames = async(): Promise<ResponseType> => {
     return await fetcher("/games/get");
 };
 
-export default getNews;
+export default getGames;
