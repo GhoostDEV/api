@@ -1,1 +1,0 @@
-{"version":3,"file":"create.d.ts","sourceRoot":"","sources":["../../../../src/api/teams/invites/create.ts"],"names":[],"mappings":"AAEA,oBAAY,sCAAsC,GAAG;IACjD,MAAM,EAAE,MAAM,CAAC;IACf,WAAW,EAAE,MAAM,CAAC;CACvB,CAAC;AAEF,aAAK,YAAY,GAAG;IAChB,OAAO,EAAE,MAAM,CAAC;CACnB,CAAC;AAEF,QAAA,MAAM,oBAAoB,SAAgB,sCAAsC,KAAG,QAAQ,YAAY,CAKtG,CAAC;AAEF,eAAe,oBAAoB,CAAC"}

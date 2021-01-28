@@ -1,14 +1,10 @@
 {
   "name": "ghoost-api",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "type": "module",
-  "exports": {
-    "./": "./build"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
