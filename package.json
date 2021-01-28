@@ -1,11 +1,10 @@
 {
   "name": "ghoost-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "type": "module",
   "exports": {
-    "./": "./build",
-    "./my": "./build"
+    "./": "./build"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
