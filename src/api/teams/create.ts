@@ -19,7 +19,7 @@ const createTeam = async (data: CreateTeamRequiredParameters, icon?: File): Prom
     if(icon) formData.append("icon", icon);
     formData.append("data", JSON.stringify(data));
 
-    return await post("/team/create", formData);
+    return await post("/teams/create", formData);
 };
 
 export default createTeam;

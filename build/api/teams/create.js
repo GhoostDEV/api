@@ -49,7 +49,7 @@ var createTeam = function (data, icon) { return __awaiter(void 0, void 0, void 0
                 if (icon)
                     formData.append("icon", icon);
                 formData.append("data", JSON.stringify(data));
-                return [4, post_1.default("/team/create", formData)];
+                return [4, post_1.default("/teams/create", formData)];
             case 1: return [2, _a.sent()];
         }
     });
