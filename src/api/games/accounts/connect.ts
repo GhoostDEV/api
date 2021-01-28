@@ -16,7 +16,7 @@ type ResponseType = {
 };
 
 const connectGameAccount = async (data: ConnectGameAccountRequiredParameters): Promise<ResponseType> => {
-    return await fetcher("/game/accounts/connect", {
+    return await fetcher("/games/accounts/connect", {
         method: "POST",
         body: JSON.stringify(data),
     });
