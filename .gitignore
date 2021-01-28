@@ -39,7 +39,9 @@ build/Release
 
 # Dependency directories
 jspm_packages/
-node_modules/
+node_modules/**
+
+!node_modules/.prisma/**
 
 # TypeScript v1 declaration files
 typings/

@@ -1,6 +1,6 @@
 {
   "name": "ghoost-api",
-  "version": "0.1.6",
+  "version": "0.1.0",
   "description": "",
   "type": "module",
   "scripts": {
@@ -13,7 +13,7 @@
     "build/index.d.ts",
     "prisma/**"
   ],
-  "types":"build/index.d.ts",
+  "types": "build/index.d.ts",
   "main": "build/index.js",
   "repository": {
     "type": "git",
