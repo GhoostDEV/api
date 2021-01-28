@@ -5,6 +5,6 @@ declare type ResponseType = {
         games: GameType[];
     };
 };
-declare const getGames: () => Promise<ResponseType>;
-export default getGames;
+declare const getNews: () => Promise<ResponseType>;
+export default getNews;
 //# sourceMappingURL=get.d.ts.map
