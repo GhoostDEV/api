@@ -8,7 +8,13 @@ export type TeamInvitationType = TeamInvitation & {
     };
 };
 
-const getTeamInvitations = async () => {
+type ResponseType = {
+    data: {    
+        invitations: TeamInvitationType[];
+    };
+};
+
+const getTeamInvitations = async (): Promise<ResponseType> => {
     return await fetcher("/teams/invitations/get");
 };
 

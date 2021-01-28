@@ -1,0 +1,1 @@
+{"version":3,"file":"get.d.ts","sourceRoot":"","sources":["../../../../src/api/games/accounts/get.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,WAAW,EAAE,MAAM,gBAAgB,CAAC;AAG7C,oBAAY,eAAe,GAAG,WAAW,CAAC;AAE1C,aAAK,YAAY,GAAG;IAChB,IAAI,EAAE;QACF,QAAQ,EAAE,eAAe,EAAE,CAAC;KAC/B,CAAC;CACL,CAAC;AAEF,QAAA,MAAM,eAAe,QAAa,QAAQ,YAAY,CAErD,CAAC;AAEF,eAAe,eAAe,CAAC"}
