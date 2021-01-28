@@ -1,0 +1,1 @@
+{"version":3,"file":"accept.d.ts","sourceRoot":"","sources":["../../src/team/invite/accept.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,cAAc,EAAE,MAAM,sCAAsC,CAAC;AAGtE,aAAK,YAAY,GAAG;IAChB,OAAO,EAAE,MAAM,CAAC;IAChB,IAAI,EAAE;QACF,UAAU,EAAE,cAAc,CAAC;KAC9B,CAAC;CACL,CAAC;AAEF,QAAA,MAAM,oBAAoB,iBAAyD,QAAQ,YAAY,CAKtG,CAAC;AAEF,eAAe,oBAAoB,CAAC"}
