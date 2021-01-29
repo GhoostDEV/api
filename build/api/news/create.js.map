@@ -1,0 +1,1 @@
+{"version":3,"file":"create.js","sourceRoot":"","sources":["../../../src/api/news/create.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA,gEAA0C;AAoB1C,IAAM,UAAU,GAAG,UAAO,IAAkC;;;oBACjD,WAAM,iBAAO,CAAC,cAAc,EAAE;oBACjC,MAAM,EAAE,MAAM;oBACd,IAAI,EAAE,IAAI,CAAC,SAAS,CAAC,IAAI,CAAC;iBAC7B,CAAC,EAAA;oBAHF,WAAO,SAGL,EAAC;;;KACN,CAAC;AAEF,kBAAe,UAAU,CAAC"}

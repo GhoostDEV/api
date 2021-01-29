@@ -1,0 +1,1 @@
+{"version":3,"file":"join.js","sourceRoot":"","sources":["../../../src/api/tournaments/join.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA,gEAA0C;AAQ1C,IAAM,cAAc,GAAG,UAAM,IAAsC;;;oBACxD,WAAM,iBAAO,CAAC,mBAAmB,EAAE;oBACtC,MAAM,EAAE,MAAM;oBACd,IAAI,EAAE,IAAI,CAAC,SAAS,CAAC,IAAI,CAAC;iBAC7B,CAAC,EAAA;oBAHF,WAAO,SAGL,EAAC;;;KACN,CAAC;AAEF,kBAAe,cAAc,CAAC"}
