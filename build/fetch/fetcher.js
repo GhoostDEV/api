@@ -54,19 +54,26 @@ var fetcher = function (input, init) { return __awaiter(void 0, void 0, void 0, 
         switch (_a.label) {
             case 0:
                 parameters = [];
+                console.log(window.localStorage);
                 if (window === null || window === void 0 ? void 0 : window.localStorage) {
+                    console.log(localStorage.length);
                     for (i = 0; i < localStorage.length; i++) {
                         key = localStorage.key(i);
+                        console.log(key);
                         if (!key)
                             continue;
                         data_1 = localStorage.getItem(key);
+                        console.log(data_1);
                         if (!data_1)
                             continue;
                         parameters.push({ name: key, value: data_1 });
+                        console.log(parameters);
                     }
                     ;
                 }
                 ;
+                console.log(parameters);
+                console.log(parameters.length > 0 ? __assign(__assign({}, init), { headers: __assign(__assign({}, init === null || init === void 0 ? void 0 : init.headers), { cookie: join(parameters) }) }) : init);
                 return [4, fetch(API_ENDPOINT + "/api" + input, parameters.length > 0 ? __assign(__assign({}, init), { headers: __assign(__assign({}, init === null || init === void 0 ? void 0 : init.headers), { cookie: join(parameters) }) }) : init)];
             case 1:
                 res = _a.sent();

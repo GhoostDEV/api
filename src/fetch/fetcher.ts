@@ -8,17 +8,31 @@ type ResponseType = {
 const fetcher = async (input: RequestInfo, init?: RequestInit): Promise<ResponseType> => {
     const parameters = [];
 
+    console.log(window.localStorage);
     if(window?.localStorage) {
+        console.log(localStorage.length)
         for(let i = 0; i < localStorage.length; i++) {
             const key = localStorage.key(i);
+            console.log(key);
             if(!key) continue;
-
+        
             const data = localStorage.getItem(key);
+            console.log(data);
             if(!data) continue;
 
             parameters.push({ name: key, value: data });
+            console.log(parameters);
         };
     };
+
+    console.log(parameters);
+    console.log(parameters.length > 0 ? {
+        ...init,
+        headers: {
+            ...init?.headers,
+            cookie: join(parameters),
+        },
+    } : init);
     
     const res = await fetch(`${API_ENDPOINT}/api${input}`, parameters.length > 0 ? {
         ...init,
